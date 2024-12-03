@@ -31,5 +31,6 @@ int main()
     std::cout << YELLOW << "c = " << c << "\nd = " << d << RESET << std::endl;
     std::cout << RED << "\nmin(c, d) = " << ::min(c, d) << RESET << std::endl;
     std::cout << MAGENTA << "max(c, d) = " << ::max(c, d) << RESET << std::endl;
+    std::cout << BLUE << "____________________________________________" << std::endl;
     return 0;
 }

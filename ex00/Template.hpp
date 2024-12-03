@@ -1,7 +1,6 @@
 #pragma once
 
 #include <iostream>
-#include <cassert>
 
 template <typename T>
 T min(const T &a, const T b) {
