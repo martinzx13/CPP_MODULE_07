@@ -27,13 +27,13 @@ template <typename T>
 Array<T> &Array<T>::operator=(Array const &src) {
     if (this != &src) {
 
+        _size = src._size;
         T *newArr = new T[src._size];
         for (unsigned int i = 0; i < _size; ++i) {
             newArr[i] = src._array[i];
         }
         delete [] _array;
         _array = newArr;
-        _size = src._size;
     }
     return *this;
 }
