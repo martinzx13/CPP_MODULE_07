@@ -1,5 +1,4 @@
 #include "Array.hpp"
-#include <cassert>
 #include <iostream>
 
 
