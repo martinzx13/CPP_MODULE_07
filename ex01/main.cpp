@@ -23,17 +23,17 @@ int main()
     int arr[5] = {1, 2, 3, 4, 5};
     char arr2[5] = {'a', 'b', 'c', 'd', 'e'};
 
-    std::cout << GREEN << "_________ TEST 1 _________" << RESET << std::endl;
-    std::cout << GREEN << "Iterating over an array of integers" << RESET << std::endl;
+    std::cout << GREEN << "_________ TEST 1 _________\n" << RESET << std::endl;
+    std::cout << GREEN << " 🏃🏃 Iterating over an array of integers 🏃🏃" << RESET << std::endl;
     ::iter(arr, 5, print<int>);
 
-    std::cout << YELLOW << "_________ TEST 2 _________" << RESET << std::endl;
-    std::cout << GREEN << "_________ Adding +1 ________" << RESET << std::endl;
+    std::cout << YELLOW << "_________ TEST 2 _________\n" << RESET << std::endl;
+    std::cout << GREEN << "🥪🥪_________ Adding +1 ________🥪🥪" << RESET << std::endl;
     ::iter(arr, 5, add<int>);
     ::iter(arr, 5, print<int>);
 
-    std::cout << YELLOW << "_________ TEST 3 _________" << RESET << std::endl;
-    std::cout << GREEN << "Iterating over an array of characters" << RESET << std::endl;
+    std::cout << YELLOW << "_________ TEST 3 _________\n" << RESET << std::endl;
+    std::cout << GREEN << "🈶🈶 Iterating over an array of characters 🈶🈶" << RESET << std::endl;
     ::iter(arr2, 5, print<char>);
     std::cout << GREEN << "_________ Adding +1 ________" << RESET << std::endl;
     ::iter(arr2, 5, add<char>);
